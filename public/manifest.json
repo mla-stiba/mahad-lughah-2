@@ -1,0 +1,23 @@
+{
+  "name": "Ma'had Lughah IAI STIBA Makassar",
+  "short_name": "Ma'had Lughah",
+  "description": "Sistem Pengembangan Bahasa Arab Ma'had Lughah IAI STIBA Makassar",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F0F9FF",
+  "theme_color": "#1E2A78",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/branding/logo-berwarna-indo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/branding/logo-berwarna-arab.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

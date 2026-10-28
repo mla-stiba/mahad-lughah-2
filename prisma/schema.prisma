@@ -1,0 +1,308 @@
+// Schema Aplikasi Ujian Hafalan Mufrodat & Uslub Bahasa Arab
+// Pesantren Zaid bin Tsabit
+//
+// Penting:
+// - DATABASE_URL  -> pakai Connection Pooler (port 6543, transaction mode) untuk Vercel serverless
+// - DIRECT_URL    -> pakai Direct Connection (port 5432) untuk prisma migrate
+// Lihat .env.example untuk format URL yang benar
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ============== MASTER DATA ==============
+
+model User {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String
+  role      String   @default("penguji") // penguji | admin
+  name      String
+  createdAt DateTime @default(now())
+}
+
+model Kamar {
+  id        String @id @default(cuid())
+  nama      String @unique
+  gender    String @default("putra") // putra | putri
+  kapasitas Int    @default(8)
+  mahasiswa Mahasiswa[]
+  kegiatan  KegiatanKamar[]
+}
+
+// ============== KEGIATAN KAMAR (v2.5.0) ==============
+// Disimpan di DB, diinput oleh ketua kamar. Satu record per hari per kamar.
+// Kalau input baru di hari yang sama → update (upsert by kamarId + tanggal hari ini).
+model KegiatanKamar {
+  id        String @id @default(cuid())
+  kamarId   String
+  kamar     Kamar  @relation(fields: [kamarId], references: [id], onDelete: Cascade)
+  kegiatan  String  // "Hafal mufrodat, Murajaah dars" (comma-separated)
+  inputBy   String? // nama ketua kamar yang input
+  tanggal   DateTime @default(now()) // hari & tanggal kegiatan diinput
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([kamarId])
+  @@index([tanggal])
+}
+
+model Level {
+  id        String @id @default(cuid())
+  nomor     Int    @unique
+  nama      String
+  deskripsi String?
+  materi    Materi[]
+  sesi      SesiUjian[]
+  paketMateri PaketMateri[]
+}
+
+model Mahasiswa {
+  id        String   @id @default(cuid())
+  nim       String   @unique // NIM 10 digit untuk login
+  nama      String
+  wa        String?  // nomor WhatsApp (opsional)
+  tanggalLahir String? // format YYYY-MM-DD (password = DDMMYYYY)
+  isKetuaKamar Boolean @default(false)
+  kamarId   String
+  kamar     Kamar   @relation(fields: [kamarId], references: [id])
+  createdAt DateTime @default(now())
+  hasil     HasilUjian[]
+  loginEvents   LoginEvent[]
+  hafalanTrackings HafalanTracking[]
+  notifications  Notification[]
+
+  @@index([kamarId])
+}
+
+// Materi hafalan: Mufrodat (kosa kata) atau Tarkib (pola kalimat)
+// Didukung berbagai media: gambar, video, audio, document, social embed, link
+// FIX #4: Materi bisa dikelompokkan ke dalam PaketMateri (per pekan/tema)
+model Materi {
+  id            String   @id @default(cuid())
+  levelId       String
+  level         Level    @relation(fields: [levelId], references: [id])
+  paketId       String?  // nullable = materi lepas (tidak ada di paket)
+  paket         PaketMateri? @relation(fields: [paketId], references: [id], onDelete: SetNull)
+  jenis         String   // mufrodat | tarkib
+  arabic        String
+  arti          String   // Indonesia
+  contoh        String?  // kalimat contoh
+  kategori      String?  // tema: makanan, keluarga, ibadah, dll
+  // Media fields
+  imageUrl      String?  // URL gambar (uploaded atau eksternal)
+  videoUrl      String?  // URL video (YouTube/Vimeo/uploaded)
+  audioUrl      String?  // URL audio mp3 (untuk mufrodat pronunciation)
+  documentUrl   String?  // URL document (PDF/Word/dll)
+  externalLink  String?  // link eksternal referensi
+  socialEmbed   String?  // JSON: { platform: instagram/tiktok/youtube, embedHtml atau url }
+  tanggalRilis  DateTime? // tanggal rilis materi (null = draft, tidak tampil ke mahasiswa)
+  createdAt     DateTime @default(now())
+  soal          SoalUjian[]
+  hafalanTrackings HafalanTracking[]
+
+  @@index([levelId])
+  @@index([paketId])
+  @@index([jenis])
+  @@index([kategori])
+}
+
+// ============== PAKET MATERI (FIX #4) ==============
+// Paket Materi = grup dari banyak Materi (mufrodat + uslub + media)
+// Contoh: "Pekan 3 - في الغرفة" berisi 20 mufrodat + 5 uslub + media
+model PaketMateri {
+  id            String   @id @default(cuid())
+  nama          String   // "Pekan 3 - في الغرفة"
+  levelId       String
+  level         Level    @relation(fields: [levelId], references: [id])
+  tema          String?  // Arabic: في الغرفة (di kamar)
+  pekan         Int?     // 3 (Pekan ke-3)
+  kategori      String?  // mufrodat | tarkib | campuran
+  deskripsi     String?  // catatan untuk mahasiswa
+  imageUrl      String?  // thumbnail paket (gambar cover)
+  tanggalRilis  DateTime? // null = draft, tidak tampil ke mahasiswa
+  createdAt     DateTime @default(now())
+  items         Materi[]
+
+  @@index([levelId])
+  @@index([tanggalRilis])
+  @@index([pekan])
+}
+
+// ============== UJIAN ==============
+
+model SesiUjian {
+  id            String   @id @default(cuid())
+  nama          String
+  levelId       String
+  level         Level    @relation(fields: [levelId], references: [id])
+  mode          String   @default("online") // online | offline | hybrid
+  durasiMenit   Int      @default(30)
+  // Scheduling: tanggal + jam mulai/selesai
+  tanggalMulai  DateTime @default(now())
+  tanggalSelesai DateTime?
+  jamMulai      String?  // format HH:MM (08:00)
+  jamSelesai    String?  // format HH:MM (10:00)
+  aktif         Boolean  @default(true)
+  // Randomisasi per mahasiswa
+  acakUrutan    Boolean  @default(false) // acak urutan soal per mahasiswa
+  jumlahSoalPerMahasiswa Int? // null = ambil semua; angka = ambil N random dari total
+  // Peserta ujian: null = semua mahasiswa boleh; JSON array of nim = hanya yang listed
+  pesertaJson   String?  // JSON: ["2657184001", "2657184002", ...]
+  // Fase: opsional, ujian terbagi fase, soal diacak per fase (fase 1 dulu, lalu 2, dst)
+  gunakanFase   Boolean  @default(false)
+  soal          SoalUjian[]
+  hasil         HasilUjian[]
+  createdAt     DateTime @default(now())
+
+  @@index([levelId])
+  @@index([aktif])
+}
+
+// Soal ujian dengan beragam tipe
+// jenis: isian | mcq (matching, terjemahan, audio sudah dihapus dari UI)
+// tipeSkor: benar_salah | 0_100 | A_B_C_D (custom per field)
+// Media fields: setiap soal bisa punya gambar/video/audio/embed sendiri
+model SoalUjian {
+  id            String   @id @default(cuid())
+  sesiId        String
+  sesi          SesiUjian @relation(fields: [sesiId], references: [id], onDelete: Cascade)
+  no            Int
+  jenis         String   // isian | mcq | sambung (FIX v3.0.6: tambah jenis "sambung" untuk matching pairs)
+  materiId      String?
+  materi        Materi?  @relation(fields: [materiId], references: [id])
+  pertanyaan    String
+  pertanyaanArabic String?
+  opsiJson      String?  // JSON: array of strings (text only) ATAU array of objects {text, imageUrl, audioUrl} (v3.0.6)
+  jawabanBenar  String?  // untuk sambung: JSON format {1: "1b", 2: "2a", ...} mapping index A → index B
+  jawabanAlternatif String?
+  bobot         Float    @default(1)
+  tipeSkor      String   @default("benar_salah")
+  hint          String?
+  // Fase & kategori soal (opsional)
+  fase          Int?     // fase 1, 2, 3... null = tanpa fase
+  kategori      String?  // kategori custom per soal (untuk evaluasi per kategori)
+  // Media fields per soal (gambar/embed/audio/video)
+  imageUrl      String?
+  videoUrl      String?
+  audioUrl      String?
+  embedUrl      String?
+  // FIX v3.0.6 #6: flag isAudio — kalau true, soal pakai TTS Arabic untuk pertanyaanArabic
+  isAudio       Boolean  @default(false)
+  // FIX v3.0.6 #7: pairsJson untuk jenis "sambung" (matching pairs)
+  // Format: JSON { pairs: [{ a: { text, imageUrl? }, b: { text, imageUrl? } }, ...] }
+  pairsJson     String?
+  createdAt     DateTime @default(now())
+  detail        DetailHasil[]
+
+  @@index([sesiId])
+  @@index([materiId])
+  @@index([jenis])
+}
+
+// Hasil ujian per mahasiswa per sesi
+model HasilUjian {
+  id            String    @id @default(cuid())
+  sesiId        String
+  sesi          SesiUjian @relation(fields: [sesiId], references: [id], onDelete: Cascade)
+  mahasiswaId   String
+  mahasiswa     Mahasiswa @relation(fields: [mahasiswaId], references: [id], onDelete: Cascade)
+  mulai         DateTime  @default(now())
+  selesai       DateTime?
+  status        String    @default("ongoing") // ongoing | submitted | graded | tidak_ikut (FIX v3.0.6 #2)
+  skorTotal     Float?
+  jumlahBenar   Int?
+  jumlahSoal    Int?
+  catatan       String?
+  // FIX v3.0.6 #1: manual grade override + note dari admin (diisi di laman Evaluasi)
+  manualGrade   Float?
+  manualNote    String?
+  detail        DetailHasil[]
+  createdAt     DateTime  @default(now())
+
+  @@unique([sesiId, mahasiswaId])
+  @@index([sesiId])
+  @@index([mahasiswaId])
+  @@index([status])
+}
+
+// Detail jawaban per soal
+model DetailHasil {
+  id            String    @id @default(cuid())
+  hasilId       String
+  hasil         HasilUjian @relation(fields: [hasilId], references: [id], onDelete: Cascade)
+  soalId        String
+  soal          SoalUjian @relation(fields: [soalId], references: [id], onDelete: Cascade)
+  jawaban       String? // jawaban teks / opsi terpilih / JSON matching
+  audioUrl      String? // untuk soal audio
+  skor          Float?
+  benar         Boolean?
+  catatanPenguji String?
+  status        String    @default("pending") // pending | graded
+  gradedAt      DateTime?
+
+  @@index([hasilId])
+  @@index([soalId])
+  @@index([status])
+}
+
+// ============== TRACKING & MONITORING ==============
+// LoginEvent: record per mahasiswa per login/logout/view materi
+// Penting untuk fitur "cek siapa yang belum login hari ini"
+model LoginEvent {
+  id          String   @id @default(cuid())
+  mahasiswaId String
+  mahasiswa   Mahasiswa @relation(fields: [mahasiswaId], references: [id], onDelete: Cascade)
+  type        String   // "login" | "logout" | "view_materi"
+  materiId    String?  // diisi saat type="view_materi"
+  timestamp   DateTime @default(now())
+
+  @@index([mahasiswaId])
+  @@index([type])
+  @@index([timestamp])
+}
+
+// HafalanTracking: status hafalan per materi per mahasiswa
+// Dicentang oleh ketua kamar (isKetuaKamar=true)
+model HafalanTracking {
+  id          String   @id @default(cuid())
+  mahasiswaId String
+  mahasiswa   Mahasiswa @relation(fields: [mahasiswaId], references: [id], onDelete: Cascade)
+  materiId    String
+  materi      Materi   @relation(fields: [materiId], references: [id], onDelete: Cascade)
+  status      String   @default("belum") // "belum" | "hafal" | "bisa" | "lancar"
+  centangBy   String?  // nama ketua kamar yang centang
+  catatan     String?
+  updatedAt   DateTime @updatedAt
+  createdAt   DateTime @default(now())
+
+  @@unique([mahasiswaId, materiId])
+  @@index([mahasiswaId])
+  @@index([materiId])
+  @@index([status])
+}
+
+// Notification: record notifikasi yang dibuat (untuk di-app + reminder)
+// Dipakai oleh Fase 3 (PWA push notification) + Fase 2 (reminder ketua kamar)
+model Notification {
+  id          String   @id @default(cuid())
+  mahasiswaId String?  // null = broadcast ke semua mahasiswa
+  mahasiswa   Mahasiswa? @relation(fields: [mahasiswaId], references: [id], onDelete: Cascade)
+  type        String   // "motivasi" | "ujian_reminder" | "materi_baru" | "reminder_login" | "ketua_alert"
+  title       String
+  body        String
+  metadata    String?  // JSON: data tambahan (sesiId, materiId, dll)
+  read        Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@index([mahasiswaId])
+  @@index([type])
+  @@index([read])
+  @@index([createdAt])
+}

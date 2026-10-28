@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📥 Download Files - Ma'had Lughah</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); min-height: 100vh; padding: 20px; color: #1e293b; }
+.container { max-width: 900px; margin: 0 auto; background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.1); overflow: hidden; }
+.header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; padding: 40px; text-align: center; }
+.header h1 { font-size: 28px; margin-bottom: 8px; }
+.header p { opacity: 0.9; font-size: 14px; }
+.content { padding: 30px; }
+.instructions { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px 20px; border-radius: 8px; margin-bottom: 24px; font-size: 14px; line-height: 1.6; }
+.instructions strong { color: #92400e; }
+.file-grid { display: grid; gap: 12px; }
+.file-card { background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; padding: 20px; display: flex; align-items: center; gap: 16px; transition: all 0.2s; cursor: pointer; text-decoration: none; color: inherit; }
+.file-card:hover { border-color: #10b981; background: #f0fdf4; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(16,185,129,0.15); }
+.file-icon { font-size: 40px; flex-shrink: 0; }
+.file-info { flex: 1; }
+.file-name { font-weight: 700; font-size: 16px; color: #0f172a; margin-bottom: 4px; }
+.file-desc { font-size: 13px; color: #64748b; line-height: 1.4; }
+.file-meta { display: flex; gap: 8px; margin-top: 8px; }
+.tag { font-size: 11px; padding: 2px 8px; border-radius: 6px; background: #e0f2fe; color: #075985; }
+.tag.size { background: #f1f5f9; color: #475569; }
+.btn-download { background: #10b981; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; flex-shrink: 0; transition: background 0.2s; }
+.btn-download:hover { background: #059669; }
+.url-box { background: #1e293b; color: #10b981; font-family: 'Courier New', monospace; padding: 12px 16px; border-radius: 8px; font-size: 12px; word-break: break-all; margin-top: 20px; }
+.url-box .label { color: #94a3b8; display: block; margin-bottom: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+.footer { background: #1e293b; color: #94a3b8; padding: 20px 30px; text-align: center; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📥 Download Files</h1>
+    <p>Source code Ma'had Lughah - Fase 1 + 2 + Fix PWA + Cron Hobby-compliant</p>
+  </div>
+  <div class="content">
+    <div class="instructions">
+      <strong>📋 CARA DOWNLOAD:</strong><br>
+      1. Klik tombol hijau "⬇ Download" di kanan setiap file<br>
+      2. Atau klik kanan pada card → "Save link as..."<br>
+      3. File zip akan tersimpan di folder <strong>Downloads</strong> komputer Anda<br>
+      4. Setelah download, ekstrak zip, lalu jalankan command: <code>npm install && git init && git push</code>
+    </div>
+
+    <div class="file-grid">
+
+      <a href="/mahad-lughah-phase1-2-v3.zip" download class="file-card">
+        <span class="file-icon">🗜️</span>
+        <div class="file-info">
+          <div class="file-name">mahad-lughah-phase1-2-v3.zip</div>
+          <div class="file-desc">Source code LENGKAP - 141 files: Fase 1 (anti-cheat, share WA, materi highlight) + Fase 2 (tracking login, monitoring hafalan, ketua kamar) + fix PWA + cron Hobby-compliant</div>
+          <div class="file-meta">
+            <span class="tag">ZIP</span>
+            <span class="tag size">721 KB</span>
+            <span class="tag">141 files</span>
+          </div>
+        </div>
+        <span class="btn-download">⬇ Download</span>
+      </a>
+
+      <a href="/template-mahasiswa-lengkap.csv" download class="file-card">
+        <span class="file-icon">📊</span>
+        <div class="file-info">
+          <div class="file-name">template-mahasiswa-lengkap.csv</div>
+          <div class="file-desc">Template CSV untuk import batch mahasiswa (format: nim,nama,wa,tanggal_lahir,is_ketua_kamar,kamar)</div>
+          <div class="file-meta">
+            <span class="tag">CSV</span>
+            <span class="tag size">15 KB</span>
+          </div>
+        </div>
+        <span class="btn-download">⬇ Download</span>
+      </a>
+
+      <a href="/files.html" class="file-card">
+        <span class="file-icon">📜</span>
+        <div class="file-info">
+          <div class="file-name">files.html (Halaman index simpel)</div>
+          <div class="file-desc">Halaman list file simpel kalau halaman ini terlalu berat di-load</div>
+          <div class="file-meta">
+            <span class="tag">HTML</span>
+            <span class="tag size">3 KB</span>
+          </div>
+        </div>
+        <span class="btn-download">📄 Buka</span>
+      </a>
+
+    </div>
+
+    <div class="url-box">
+      <span class="label">Direct download URL (kalau tombol atas gak jalan):</span>
+      /mahad-lughah-phase1-2-v3.zip
+      <br><br>
+      <span class="label">Cara pakai URL langsung:</span>
+      Copy URL preview Anda (yang sudah pernah Anda buka) → tambah <code>/mahad-lughah-phase1-2-v3.zip</code> di akhir → paste di browser
+    </div>
+  </div>
+  <div class="footer">
+    Generated by Ma'had Lughah AI Assistant • CachyOS • Next.js 16
+  </div>
+</div>
+</body>
+</html>

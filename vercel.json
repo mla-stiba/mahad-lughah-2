@@ -1,0 +1,17 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "functions": {
+    "src/app/api/**": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/daily-check",
+      "schedule": "0 6 * * *"
+    }
+  ]
+}
