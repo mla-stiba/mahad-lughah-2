@@ -1,0 +1,2027 @@
+[
+  {
+    "nim": "2657184001",
+    "nama": "RAFIE ABQARY MUSTAFA",
+    "wa": "81342945521",
+    "tanggalLahir": "2008-04-06",
+    "gender": "putra",
+    "kamar": "08.02.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184002",
+    "nama": "MUHAMMAD BILAL AS'AD",
+    "wa": "82311113693",
+    "tanggalLahir": "2008-04-13",
+    "gender": "putra",
+    "kamar": "08.02.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184005",
+    "nama": "FADLI",
+    "wa": "85135799136",
+    "tanggalLahir": "2006-08-28",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184008",
+    "nama": "EZRA FERDY",
+    "wa": "87729200994",
+    "tanggalLahir": "2005-03-16",
+    "gender": "putra",
+    "kamar": "08.02.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184009",
+    "nama": "ANDI MUH. AL-ASHAR",
+    "wa": "85343694584",
+    "tanggalLahir": "2008-06-27",
+    "gender": "putra",
+    "kamar": "08.02.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184011",
+    "nama": "FAIZ ABDULLAH",
+    "wa": "81215883760",
+    "tanggalLahir": "2008-05-09",
+    "gender": "putra",
+    "kamar": "08.02.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184012",
+    "nama": "MUH. ADAM ZAKWAN",
+    "wa": "82296944857",
+    "tanggalLahir": "2009-03-12",
+    "gender": "putra",
+    "kamar": "08.02.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184013",
+    "nama": "ANDI FATHIR JIHAD ASYTAR YUSUF",
+    "wa": "85956707909",
+    "tanggalLahir": "2008-06-05",
+    "gender": "putra",
+    "kamar": "08.02.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184016",
+    "nama": "MUHAMMAD ALY RIDWAN",
+    "wa": "895352248969",
+    "tanggalLahir": "2008-07-12",
+    "gender": "putra",
+    "kamar": "08.02.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184019",
+    "nama": "IMAM AKBAR KAMSAD",
+    "wa": "895611702168",
+    "tanggalLahir": "2008-09-27",
+    "gender": "putra",
+    "kamar": "08.02.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184021",
+    "nama": "MUHAMMAD FISHAM BILAL RISKILLAH J",
+    "wa": "8.59E+10",
+    "tanggalLahir": "2008-10-05",
+    "gender": "putra",
+    "kamar": "08.02.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184022",
+    "nama": "DHANI AHMAD AL GHAZALI",
+    "wa": "82131116872",
+    "tanggalLahir": "2007-12-07",
+    "gender": "putra",
+    "kamar": "08.02.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184024",
+    "nama": "WIDY ADINDRA ILHAM",
+    "wa": "82311280061",
+    "tanggalLahir": "2007-08-09",
+    "gender": "putra",
+    "kamar": "08.02.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184025",
+    "nama": "MUH.IDRIS",
+    "wa": "82192914040",
+    "tanggalLahir": "2008-08-16",
+    "gender": "putra",
+    "kamar": "08.02.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184029",
+    "nama": "ABD. DZAKY SYAMSUDDIN",
+    "wa": "81524585810",
+    "tanggalLahir": "2007-09-01",
+    "gender": "putra",
+    "kamar": "08.02.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184031",
+    "nama": "MUHAMMAD ISMAIL HERMAN",
+    "wa": "81216386157",
+    "tanggalLahir": "2007-06-05",
+    "gender": "putra",
+    "kamar": "08.02.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184032",
+    "nama": "FAREL",
+    "wa": "8979688813",
+    "tanggalLahir": "2008-01-11",
+    "gender": "putra",
+    "kamar": "08.02.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184034",
+    "nama": "M.YUSUF RUSMAN",
+    "wa": "85345763240",
+    "tanggalLahir": "2007-12-22",
+    "gender": "putra",
+    "kamar": "08.02.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184035",
+    "nama": "ARMAN A. MARIDA",
+    "wa": "85757207617",
+    "tanggalLahir": "2008-07-18",
+    "gender": "putra",
+    "kamar": "08.02.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184036",
+    "nama": "MOHAMMAD REHAN",
+    "wa": "895420470744",
+    "tanggalLahir": "2008-03-20",
+    "gender": "putra",
+    "kamar": "08.02.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184040",
+    "nama": "ULIL AMRI AR RAHMAN",
+    "wa": "6.29E+12",
+    "tanggalLahir": "2007-11-30",
+    "gender": "putra",
+    "kamar": "08.02.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184043",
+    "nama": "MUHAMMAD DAIMUL HAQ",
+    "wa": "85396724159",
+    "tanggalLahir": "2008-02-14",
+    "gender": "putra",
+    "kamar": "08.02.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184045",
+    "nama": "ABDULLAH",
+    "wa": "85237083255",
+    "tanggalLahir": "2008-01-19",
+    "gender": "putra",
+    "kamar": "08.02.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184053",
+    "nama": "MUH.NUR ALAM TOLAURIP",
+    "wa": "8134703798",
+    "tanggalLahir": "2008-02-18",
+    "gender": "putra",
+    "kamar": "08.02.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184054",
+    "nama": "NAUFAL MUBAROK",
+    "wa": "6.29E+12",
+    "tanggalLahir": "2008-10-03",
+    "gender": "putra",
+    "kamar": "08.02.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184058",
+    "nama": "SANDI",
+    "wa": "82347761499",
+    "tanggalLahir": "2003-04-24",
+    "gender": "putra",
+    "kamar": "08.02.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184059",
+    "nama": "YAHYA",
+    "wa": "85741924393",
+    "tanggalLahir": "2008-10-24",
+    "gender": "putra",
+    "kamar": "08.02.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184062",
+    "nama": "MUH.RAYHAN ASHIL SAFFRAN",
+    "wa": "82266460102",
+    "tanggalLahir": "2008-07-27",
+    "gender": "putra",
+    "kamar": "08.02.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184064",
+    "nama": "AKHMAD AL FARHEZA",
+    "wa": "82193200176",
+    "tanggalLahir": "2007-12-11",
+    "gender": "putra",
+    "kamar": "08.02.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184065",
+    "nama": "FATUR RIZKY S",
+    "wa": "85343619708",
+    "tanggalLahir": "2007-06-05",
+    "gender": "putra",
+    "kamar": "08.02.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184067",
+    "nama": "THOLHAH AL FAYYADH BIN FADHLI",
+    "wa": "85236023504",
+    "tanggalLahir": "2007-10-28",
+    "gender": "putra",
+    "kamar": "08.02.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184070",
+    "nama": "A.HARFANDI",
+    "wa": "82326929528",
+    "tanggalLahir": "2007-09-10",
+    "gender": "putra",
+    "kamar": "08.02.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184072",
+    "nama": "ICHWAN AMRI",
+    "wa": "82235815419",
+    "tanggalLahir": "2008-05-27",
+    "gender": "putra",
+    "kamar": "08.02.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184073",
+    "nama": "ALFIANSYAH",
+    "wa": "88972888218",
+    "tanggalLahir": "2008-10-02",
+    "gender": "putra",
+    "kamar": "08.02.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184074",
+    "nama": "MUH. FATHIN NAJIB",
+    "wa": "85395786362",
+    "tanggalLahir": "2007-12-07",
+    "gender": "putra",
+    "kamar": "08.02.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184075",
+    "nama": "MUHAMMAD SALIM FATHIN",
+    "wa": "82348646430",
+    "tanggalLahir": "2008-04-07",
+    "gender": "putra",
+    "kamar": "08.02.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184077",
+    "nama": "MUHAMMAD ADHE FIRDAUS",
+    "wa": "82296988984",
+    "tanggalLahir": "2007-10-31",
+    "gender": "putra",
+    "kamar": "08.02.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184078",
+    "nama": "M. FAHRIL ARMANG",
+    "wa": "82287636630",
+    "tanggalLahir": "2008-03-12",
+    "gender": "putra",
+    "kamar": "08.02.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184079",
+    "nama": "AL-FARUQ",
+    "wa": "82156994617",
+    "tanggalLahir": "2008-04-22",
+    "gender": "putra",
+    "kamar": "08.02.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184080",
+    "nama": "IBNU FAHYIM MALIK",
+    "wa": "81241235300",
+    "tanggalLahir": "2008-05-04",
+    "gender": "putra",
+    "kamar": "08.02.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184083",
+    "nama": "MUH. UGI IMAMULHAQ",
+    "wa": "81524240275",
+    "tanggalLahir": "2007-11-27",
+    "gender": "putra",
+    "kamar": "08.02.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184086",
+    "nama": "ABD. RAHIM",
+    "wa": "81527017261",
+    "tanggalLahir": "2007-03-28",
+    "gender": "putra",
+    "kamar": "08.02.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184087",
+    "nama": "UMAR AL FARUQ",
+    "wa": "6.28E+12",
+    "tanggalLahir": "2008-03-03",
+    "gender": "putra",
+    "kamar": "08.02.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184089",
+    "nama": "MUH.AKSYA R",
+    "wa": "85828132088",
+    "tanggalLahir": "2006-11-30",
+    "gender": "putra",
+    "kamar": "08.02.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184090",
+    "nama": "MUHERLIM",
+    "wa": "85824672726",
+    "tanggalLahir": "2007-06-04",
+    "gender": "putra",
+    "kamar": "08.02.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184094",
+    "nama": "FAISAL ALI SUYUTI",
+    "wa": "82398839464",
+    "tanggalLahir": "2007-11-09",
+    "gender": "putra",
+    "kamar": "08.02.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184097",
+    "nama": "FAUZAN",
+    "wa": "882021033689",
+    "tanggalLahir": "2008-10-17",
+    "gender": "putra",
+    "kamar": "08.02.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184101",
+    "nama": "AHMAD FAUZAN",
+    "wa": "85756205992",
+    "tanggalLahir": "2008-06-13",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184102",
+    "nama": "QUSHAY",
+    "wa": "85232332340",
+    "tanggalLahir": "2008-05-25",
+    "gender": "putra",
+    "kamar": "08.02.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184105",
+    "nama": "ANDI DINUL MUARQAM ZAHRIZAH",
+    "wa": "895340998673",
+    "tanggalLahir": "2008-02-13",
+    "gender": "putra",
+    "kamar": "08.02.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184106",
+    "nama": "KHALID RANTISI",
+    "wa": "81267280609",
+    "tanggalLahir": "2007-02-11",
+    "gender": "putra",
+    "kamar": "08.02.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184109",
+    "nama": "MUHAMMAD FALIH KHOIRON PUTRA AIDYL",
+    "wa": "85299370745",
+    "tanggalLahir": "2008-05-15",
+    "gender": "putra",
+    "kamar": "08.02.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184112",
+    "nama": "MUH. AKHTAR YUSUF AL FARABY",
+    "wa": "8985283222",
+    "tanggalLahir": "2008-05-05",
+    "gender": "putra",
+    "kamar": "08.02.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184113",
+    "nama": "MUH. FARUQ SAID",
+    "wa": "85343769855",
+    "tanggalLahir": "2008-07-05",
+    "gender": "putra",
+    "kamar": "08.02.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184116",
+    "nama": "ANDI MUHAMMAD RESQY",
+    "wa": "81525845104",
+    "tanggalLahir": "2008-02-02",
+    "gender": "putra",
+    "kamar": "08.02.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184123",
+    "nama": "M. YUSUF",
+    "wa": "85756471639",
+    "tanggalLahir": "2008-01-01",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184126",
+    "nama": "HABIBI FAUZAN ZAKY",
+    "wa": "82292755147",
+    "tanggalLahir": "2008-04-27",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184128",
+    "nama": "FADLI",
+    "wa": "85135799136",
+    "tanggalLahir": "2006-08-28",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184134",
+    "nama": "MUHAMMAD MIQDAD RAHMAN",
+    "wa": "89530230212",
+    "tanggalLahir": "2008-03-07",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184135",
+    "nama": "MUH AQIB AFIF A.",
+    "wa": "82249255030",
+    "tanggalLahir": "2007-11-20",
+    "gender": "putra",
+    "kamar": "08.02.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184137",
+    "nama": "FARID RAMADHAN",
+    "wa": "81241059317",
+    "tanggalLahir": "2007-09-23",
+    "gender": "putra",
+    "kamar": "08.02.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184138",
+    "nama": "MUHAMMAD SHAFWAN AL FARUQ AZHARI",
+    "wa": "85330246655",
+    "tanggalLahir": "2008-06-21",
+    "gender": "putra",
+    "kamar": "08.02.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184144",
+    "nama": "AHMAD ZULFAHMI",
+    "wa": "83172373502",
+    "tanggalLahir": "2006-10-10",
+    "gender": "putra",
+    "kamar": "08.02.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184146",
+    "nama": "BADRUDDIN",
+    "wa": "85947512157",
+    "tanggalLahir": "2007-06-06",
+    "gender": "putra",
+    "kamar": "08.02.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184147",
+    "nama": "ANDI MUH FADHEL PRATAMA EL YASYRIF",
+    "wa": "82347638037",
+    "tanggalLahir": "2008-05-10",
+    "gender": "putra",
+    "kamar": "08.02.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184153",
+    "nama": "MUHAMMAD GHAILAN",
+    "wa": "82248941252",
+    "tanggalLahir": "2008-07-16",
+    "gender": "putra",
+    "kamar": "08.02.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184155",
+    "nama": "FIRMANSYAH",
+    "wa": "83136199273",
+    "tanggalLahir": "2007-05-01",
+    "gender": "putra",
+    "kamar": "08.02.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184157",
+    "nama": "REVAN MUSHADDIQ RAMADHAN",
+    "wa": "85231517494",
+    "tanggalLahir": "2008-09-29",
+    "gender": "putra",
+    "kamar": "08.02.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184160",
+    "nama": "FADHLURRAHMAN",
+    "wa": "85849020466",
+    "tanggalLahir": "2008-04-14",
+    "gender": "putra",
+    "kamar": "08.02.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184161",
+    "nama": "MUH. ALI MUFID",
+    "wa": "85211287710",
+    "tanggalLahir": "2008-08-05",
+    "gender": "putra",
+    "kamar": "08.02.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184162",
+    "nama": "IBNUL QAYYUM AL KAMIL",
+    "wa": "85824950136",
+    "tanggalLahir": "2008-08-05",
+    "gender": "putra",
+    "kamar": "08.02.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184169",
+    "nama": "MUHAMMAD ANDIKA",
+    "wa": "82396035390",
+    "tanggalLahir": "2008-01-27",
+    "gender": "putra",
+    "kamar": "08.02.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184171",
+    "nama": "MUH. WAHYU RAHMAN",
+    "wa": "85203794425",
+    "tanggalLahir": "2008-07-26",
+    "gender": "putra",
+    "kamar": "08.02.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184175",
+    "nama": "KHABBAB",
+    "wa": "85863500430",
+    "tanggalLahir": "2007-03-18",
+    "gender": "putra",
+    "kamar": "08.02.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184177",
+    "nama": "ABDURRAHMAN AL AWWAD",
+    "wa": "85184870021",
+    "tanggalLahir": "2008-03-29",
+    "gender": "putra",
+    "kamar": "08.02.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184181",
+    "nama": "FAHRI ZAKIR",
+    "wa": "81349399390",
+    "tanggalLahir": "2007-09-21",
+    "gender": "putra",
+    "kamar": "08.02.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184183",
+    "nama": "MUITZUL HIDAYAT",
+    "wa": "85656917649",
+    "tanggalLahir": "2007-04-08",
+    "gender": "putra",
+    "kamar": "08.02.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184185",
+    "nama": "ARMAN",
+    "wa": "85168607168",
+    "tanggalLahir": "2007-12-14",
+    "gender": "putra",
+    "kamar": "08.02.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184189",
+    "nama": "MUFLIH RAMADHAN",
+    "wa": "85142769246",
+    "tanggalLahir": "2008-09-14",
+    "gender": "putra",
+    "kamar": "08.02.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184190",
+    "nama": "MUHAMMAD AL MUGHIRAH",
+    "wa": "81527237925",
+    "tanggalLahir": "2008-12-02",
+    "gender": "putra",
+    "kamar": "08.02.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184192",
+    "nama": "M. IKRIMAH AL MUBARAK",
+    "wa": "882020441802",
+    "tanggalLahir": "2007-06-16",
+    "gender": "putra",
+    "kamar": "08.03.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184193",
+    "nama": "ABDUL WAHAB",
+    "wa": "85298702329",
+    "tanggalLahir": "2008-06-04",
+    "gender": "putra",
+    "kamar": "08.03.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184194",
+    "nama": "REZKY DWI ANDHIKA",
+    "wa": "82196605416",
+    "tanggalLahir": "2008-08-30",
+    "gender": "putra",
+    "kamar": "08.03.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184195",
+    "nama": "MUH. FAHRY",
+    "wa": "82317860853",
+    "tanggalLahir": "2007-04-11",
+    "gender": "putra",
+    "kamar": "08.03.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184196",
+    "nama": "MUHAMMAD NAUFAL",
+    "wa": "82261943530",
+    "tanggalLahir": "2006-02-16",
+    "gender": "putra",
+    "kamar": "08.03.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184199",
+    "nama": "ALEXANDER ALIF",
+    "wa": "85139005524",
+    "tanggalLahir": "2009-05-30",
+    "gender": "putra",
+    "kamar": "08.03.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184200",
+    "nama": "ILYAS DZULQORNAIN",
+    "wa": "85179633521",
+    "tanggalLahir": "2004-10-28",
+    "gender": "putra",
+    "kamar": "08.03.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184201",
+    "nama": "ARYA APRIAL",
+    "wa": "82143069955",
+    "tanggalLahir": "2008-04-21",
+    "gender": "putra",
+    "kamar": "08.03.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184203",
+    "nama": "UMAR SHOBRIN AL FARUQ",
+    "wa": "82322248615",
+    "tanggalLahir": "2008-03-16",
+    "gender": "putra",
+    "kamar": "08.03.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184205",
+    "nama": "MUHAMMAD AFLAH FADHLURRAHMAN",
+    "wa": "82196012286",
+    "tanggalLahir": "2008-06-12",
+    "gender": "putra",
+    "kamar": "08.03.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184207",
+    "nama": "MUH. FIKRAN K",
+    "wa": "82396585697",
+    "tanggalLahir": "2007-04-09",
+    "gender": "putra",
+    "kamar": "08.03.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184208",
+    "nama": "FADHIL MUFLIH SUMARLIN",
+    "wa": "85126770741",
+    "tanggalLahir": "2007-04-20",
+    "gender": "putra",
+    "kamar": "08.03.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184211",
+    "nama": "MUH. MALIKAL MULQI",
+    "wa": "85757611391",
+    "tanggalLahir": "2008-06-28",
+    "gender": "putra",
+    "kamar": "08.03.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184212",
+    "nama": "HABIB ALI MUSLIH",
+    "wa": "85397929454",
+    "tanggalLahir": "2008-06-29",
+    "gender": "putra",
+    "kamar": "08.03.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184215",
+    "nama": "NURALIM MUHAMMAD",
+    "wa": "85934778355",
+    "tanggalLahir": "2008-02-15",
+    "gender": "putra",
+    "kamar": "08.03.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184217",
+    "nama": "MUHAMMAD DZUL IKRAM",
+    "wa": "82317310970",
+    "tanggalLahir": "2008-01-08",
+    "gender": "putra",
+    "kamar": "08.03.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184219",
+    "nama": "ILYAS",
+    "wa": "82355551865",
+    "tanggalLahir": "2008-04-01",
+    "gender": "putra",
+    "kamar": "08.03.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184221",
+    "nama": "SYAHIRUL ALIM",
+    "wa": "89601626994",
+    "tanggalLahir": "2007-11-06",
+    "gender": "putra",
+    "kamar": "08.03.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184222",
+    "nama": "MUH.FIQHY",
+    "wa": "82345668956",
+    "tanggalLahir": "2007-03-27",
+    "gender": "putra",
+    "kamar": "08.03.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184226",
+    "nama": "FAUZAN AL FARISYID",
+    "wa": "82191465832",
+    "tanggalLahir": "2008-03-11",
+    "gender": "putra",
+    "kamar": "08.03.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184227",
+    "nama": "SYAHRUL YUSUF",
+    "wa": "85399037089",
+    "tanggalLahir": "2007-11-09",
+    "gender": "putra",
+    "kamar": "08.03.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184229",
+    "nama": "HAFIZH DZAKWAN",
+    "wa": "882021390936",
+    "tanggalLahir": "2007-07-19",
+    "gender": "putra",
+    "kamar": "08.03.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184231",
+    "nama": "MUH. FAJRI",
+    "wa": "88294649467",
+    "tanggalLahir": "2008-08-02",
+    "gender": "putra",
+    "kamar": "08.03.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184234",
+    "nama": "ARSIL ILMAN DARAJAT",
+    "wa": "85821732348",
+    "tanggalLahir": "2007-08-21",
+    "gender": "putra",
+    "kamar": "08.03.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184235",
+    "nama": "HASBI",
+    "wa": "85824793804",
+    "tanggalLahir": "2007-09-03",
+    "gender": "putra",
+    "kamar": "08.03.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184236",
+    "nama": "LUKMAN NULHAKIM",
+    "wa": "85215253656",
+    "tanggalLahir": "2007-09-13",
+    "gender": "putra",
+    "kamar": "08.03.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184238",
+    "nama": "ADLINAYYIB AN-NAFIZ",
+    "wa": "85159094473",
+    "tanggalLahir": "2008-02-15",
+    "gender": "putra",
+    "kamar": "08.03.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184242",
+    "nama": "MUHAMMAD DZAKI NAUFAL QURRATU'AIN",
+    "wa": "81347030834",
+    "tanggalLahir": "2008-03-16",
+    "gender": "putra",
+    "kamar": "08.03.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184244",
+    "nama": "AL FATIH SALAM",
+    "wa": "81264227022",
+    "tanggalLahir": "2008-02-24",
+    "gender": "putra",
+    "kamar": "08.03.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184246",
+    "nama": "RAKHA SURYA ALFATHIR AWALUDDIN",
+    "wa": "82193215187",
+    "tanggalLahir": "2008-04-04",
+    "gender": "putra",
+    "kamar": "08.03.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184253",
+    "nama": "MUH. FAISAL",
+    "wa": "82353100811",
+    "tanggalLahir": "2007-04-27",
+    "gender": "putra",
+    "kamar": "08.03.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184258",
+    "nama": "M.ILYAS AL.QADRI",
+    "wa": "85268186519",
+    "tanggalLahir": "2008-04-25",
+    "gender": "putra",
+    "kamar": "08.03.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184261",
+    "nama": "FADHL BIN YUNUS",
+    "wa": "85299155250",
+    "tanggalLahir": "2008-05-24",
+    "gender": "putra",
+    "kamar": "08.03.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184264",
+    "nama": "SYAHRUL HALQI ARYUGA",
+    "wa": "85775363711",
+    "tanggalLahir": "2008-01-08",
+    "gender": "putra",
+    "kamar": "08.03.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184265",
+    "nama": "MAHDY AQIL YUSUF",
+    "wa": "85210903248",
+    "tanggalLahir": "2008-04-21",
+    "gender": "putra",
+    "kamar": "08.03.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184268",
+    "nama": "ARSYA ZAUKY RAMADHAN",
+    "wa": "82191730511",
+    "tanggalLahir": "2008-09-19",
+    "gender": "putra",
+    "kamar": "08.03.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184270",
+    "nama": "MUHAMMAD ZAID ZAIROFI",
+    "wa": "82399980070",
+    "tanggalLahir": "2008-12-24",
+    "gender": "putra",
+    "kamar": "08.03.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184272",
+    "nama": "IMAMUL KHAIR AGUSTAN",
+    "wa": "81315120414",
+    "tanggalLahir": "2007-06-06",
+    "gender": "putra",
+    "kamar": "08.03.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184280",
+    "nama": "MOH.GHAZY",
+    "wa": "82293913425",
+    "tanggalLahir": "2007-08-15",
+    "gender": "putra",
+    "kamar": "08.03.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184284",
+    "nama": "MUH ALFATHONAH ASMAN",
+    "wa": "6.29E+12",
+    "tanggalLahir": "2007-09-14",
+    "gender": "putra",
+    "kamar": "08.03.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184285",
+    "nama": "MUH.ALDIANSYAH",
+    "wa": "0895-0841-5793",
+    "tanggalLahir": "2007-11-22",
+    "gender": "putra",
+    "kamar": "08.03.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184286",
+    "nama": "ACHMAD FAUZI",
+    "wa": "85399359576",
+    "tanggalLahir": "2007-05-03",
+    "gender": "putra",
+    "kamar": "08.03.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184287",
+    "nama": "ANDI MUH AMSYARIF AMIR",
+    "wa": "89601767390",
+    "tanggalLahir": "2007-08-30",
+    "gender": "putra",
+    "kamar": "08.03.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184292",
+    "nama": "SULKIFLI",
+    "wa": "85185687347",
+    "tanggalLahir": "2007-05-05",
+    "gender": "putra",
+    "kamar": "08.03.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184298",
+    "nama": "HOTMA WAHIDIN",
+    "wa": "85394480052",
+    "tanggalLahir": "2008-05-13",
+    "gender": "putra",
+    "kamar": "08.03.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184299",
+    "nama": "ACHMAD ZAIDAN IFKAR RAMLI",
+    "wa": "81244707486",
+    "tanggalLahir": "2008-01-03",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184301",
+    "nama": "AHMAD FAUZAN",
+    "wa": "85756205992",
+    "tanggalLahir": "2008-06-13",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184302",
+    "nama": "MUHAMMAD FATH REZKY FAUZY",
+    "wa": "82156726488",
+    "tanggalLahir": "2007-11-03",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184309",
+    "nama": "MUH. MAHFUDZ",
+    "wa": "82193667646",
+    "tanggalLahir": "2008-05-15",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184314",
+    "nama": "ABDUL HAMID BAHMID",
+    "wa": "87756084448",
+    "tanggalLahir": "2008-01-18",
+    "gender": "putra",
+    "kamar": "08.03.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184316",
+    "nama": "MUHAMMAD FACHRIL",
+    "wa": "81340803401",
+    "tanggalLahir": "2008-03-28",
+    "gender": "putra",
+    "kamar": "08.03.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184318",
+    "nama": "MUH. FURQAN",
+    "wa": "81346830934",
+    "tanggalLahir": "2007-02-06",
+    "gender": "putra",
+    "kamar": "08.03.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184321",
+    "nama": "MUHAMMAD RISKY",
+    "wa": "85393631379",
+    "tanggalLahir": "2008-03-15",
+    "gender": "putra",
+    "kamar": "08.03.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184324",
+    "nama": "MUHAMMAD ILMAN BASIR",
+    "wa": "82324669656",
+    "tanggalLahir": "2007-12-25",
+    "gender": "putra",
+    "kamar": "08.03.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184325",
+    "nama": "ABDURRAZZAQ",
+    "wa": "87721768210",
+    "tanggalLahir": "2006-03-27",
+    "gender": "putra",
+    "kamar": "08.03.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184330",
+    "nama": "HIDAYATUL RAHMAN",
+    "wa": "81244711606",
+    "tanggalLahir": "2007-08-07",
+    "gender": "putra",
+    "kamar": "08.03.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184331",
+    "nama": "MUHAMMAD HAIRUL",
+    "wa": "82311808894",
+    "tanggalLahir": "2007-07-25",
+    "gender": "putra",
+    "kamar": "08.03.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184332",
+    "nama": "TAUFIQ MULIARMAN",
+    "wa": "85399992636",
+    "tanggalLahir": "2008-03-23",
+    "gender": "putra",
+    "kamar": "08.03.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184334",
+    "nama": "MUH. MIQDAD AL-AFGANI",
+    "wa": "85399320569",
+    "tanggalLahir": "2007-12-17",
+    "gender": "putra",
+    "kamar": "08.03.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184335",
+    "nama": "DZAKWAN",
+    "wa": "85398831434",
+    "tanggalLahir": "2009-03-26",
+    "gender": "putra",
+    "kamar": "08.03.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184336",
+    "nama": "MALIK ABDURAHMAN",
+    "wa": "89676263175",
+    "tanggalLahir": "2008-06-19",
+    "gender": "putra",
+    "kamar": "08.03.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184337",
+    "nama": "DZAKI DZAKWAN",
+    "wa": "89512644240",
+    "tanggalLahir": "2008-03-19",
+    "gender": "putra",
+    "kamar": "08.03.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184339",
+    "nama": "SAHAB MUSSAHHAR",
+    "wa": "85825325207",
+    "tanggalLahir": "2006-12-17",
+    "gender": "putra",
+    "kamar": "08.03.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184340",
+    "nama": "UBAIDURRAHMAN",
+    "wa": "89516110660",
+    "tanggalLahir": "2008-06-05",
+    "gender": "putra",
+    "kamar": "08.03.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184341",
+    "nama": "M.AFIP",
+    "wa": "81356973269",
+    "tanggalLahir": "2008-02-23",
+    "gender": "putra",
+    "kamar": "08.03.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184342",
+    "nama": "ANDI ABDURRAHMAN",
+    "wa": "85119997586",
+    "tanggalLahir": "2007-08-22",
+    "gender": "putra",
+    "kamar": "08.03.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184346",
+    "nama": "MUHAMMAD WAFIQ BIN SYAKIR",
+    "wa": "82191214040",
+    "tanggalLahir": "2008-10-09",
+    "gender": "putra",
+    "kamar": "08.03.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184348",
+    "nama": "M. HABIB ABDILLAH",
+    "wa": "82196977480",
+    "tanggalLahir": "2008-06-08",
+    "gender": "putra",
+    "kamar": "08.03.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184349",
+    "nama": "MUHAMMAD YA'ISY ALY HAMS",
+    "wa": "85298358410",
+    "tanggalLahir": "2008-07-15",
+    "gender": "putra",
+    "kamar": "08.03.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184354",
+    "nama": "GAFUR AL'GAZALI",
+    "wa": "85246342679",
+    "tanggalLahir": "2007-06-04",
+    "gender": "putra",
+    "kamar": "08.03.14",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184355",
+    "nama": "MUH ASYRAF",
+    "wa": "87836488422",
+    "tanggalLahir": "2008-05-06",
+    "gender": "putra",
+    "kamar": "08.03.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184357",
+    "nama": "MU'AZ MUZAKIR",
+    "wa": "85135598041",
+    "tanggalLahir": "2007-08-12",
+    "gender": "putra",
+    "kamar": "08.03.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184358",
+    "nama": "ACHMAD ANWAR HABIBURRAHMAN",
+    "wa": "82214357034",
+    "tanggalLahir": "2008-02-02",
+    "gender": "putra",
+    "kamar": "08.03.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184359",
+    "nama": "RAHMAT HIDAYAT",
+    "wa": "81374244138",
+    "tanggalLahir": "2004-06-06",
+    "gender": "putra",
+    "kamar": "08.03.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184360",
+    "nama": "SYAIFUL",
+    "wa": "87750021746",
+    "tanggalLahir": "2007-10-05",
+    "gender": "putra",
+    "kamar": "08.03.15",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184362",
+    "nama": "FATHUL HIDAYAT",
+    "wa": "85362412810",
+    "tanggalLahir": "2006-09-02",
+    "gender": "putra",
+    "kamar": "08.03.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184363",
+    "nama": "MUH. IHSAN",
+    "wa": "85656141540",
+    "tanggalLahir": "2008-05-12",
+    "gender": "putra",
+    "kamar": "08.03.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184366",
+    "nama": "ARIFUDIN",
+    "wa": "85753950387",
+    "tanggalLahir": "2008-10-18",
+    "gender": "putra",
+    "kamar": "08.03.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184367",
+    "nama": "MUHAMMAD ALWAN AS'AD",
+    "wa": "81328684474",
+    "tanggalLahir": "2007-12-10",
+    "gender": "putra",
+    "kamar": "08.03.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184368",
+    "nama": "MUH. SYUKUR ADAM",
+    "wa": "85142841220",
+    "tanggalLahir": "2007-11-13",
+    "gender": "putra",
+    "kamar": "08.03.16",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184371",
+    "nama": "HASBI SUMARDI",
+    "wa": "87734222876",
+    "tanggalLahir": "2008-02-02",
+    "gender": "putra",
+    "kamar": "08.04.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184372",
+    "nama": "RIJAL GOI",
+    "wa": "82296712466",
+    "tanggalLahir": "2007-12-01",
+    "gender": "putra",
+    "kamar": "08.04.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184373",
+    "nama": "MUHAMMAD ZUBAIR HERMAN",
+    "wa": "82195690710",
+    "tanggalLahir": "2007-02-03",
+    "gender": "putra",
+    "kamar": "08.04.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184375",
+    "nama": "HANDIKA",
+    "wa": "82233180307",
+    "tanggalLahir": "2008-01-09",
+    "gender": "putra",
+    "kamar": "08.04.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184376",
+    "nama": "MUH. URAIFI SAID AS'SADI",
+    "wa": "85385117937",
+    "tanggalLahir": "2008-03-06",
+    "gender": "putra",
+    "kamar": "08.04.01",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184379",
+    "nama": "MUHAMMAD",
+    "wa": "895374038470",
+    "tanggalLahir": "2008-05-13",
+    "gender": "putra",
+    "kamar": "08.04.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184380",
+    "nama": "RIO FAJAR IQMA",
+    "wa": "87818643182",
+    "tanggalLahir": "2009-01-29",
+    "gender": "putra",
+    "kamar": "08.04.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184383",
+    "nama": "FAISAL",
+    "wa": "82154012252",
+    "tanggalLahir": "2008-01-17",
+    "gender": "putra",
+    "kamar": "08.04.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184384",
+    "nama": "MUH IKBAL",
+    "wa": "89521115962",
+    "tanggalLahir": "2007-05-30",
+    "gender": "putra",
+    "kamar": "08.04.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184385",
+    "nama": "MUH. YUSRIL",
+    "wa": "85591083613",
+    "tanggalLahir": "2006-12-04",
+    "gender": "putra",
+    "kamar": "08.04.02",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184388",
+    "nama": "RISKY FAUZI S.",
+    "wa": "85281922008",
+    "tanggalLahir": "2008-02-19",
+    "gender": "putra",
+    "kamar": "08.04.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184389",
+    "nama": "A. MUH. NUR ABRAR",
+    "wa": "85119877001",
+    "tanggalLahir": "2007-09-10",
+    "gender": "putra",
+    "kamar": "08.04.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184390",
+    "nama": "NAUFAL",
+    "wa": "81363176754",
+    "tanggalLahir": "2008-08-11",
+    "gender": "putra",
+    "kamar": "08.04.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184394",
+    "nama": "MUH. FAIQ ASLAM",
+    "wa": "81917106929",
+    "tanggalLahir": "2008-06-02",
+    "gender": "putra",
+    "kamar": "08.04.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184396",
+    "nama": "WILDAN FATHONA",
+    "wa": "85396777430",
+    "tanggalLahir": "2007-10-05",
+    "gender": "putra",
+    "kamar": "08.04.03",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184397",
+    "nama": "MUJAHID IHSAN",
+    "wa": "895328886570",
+    "tanggalLahir": "2008-04-26",
+    "gender": "putra",
+    "kamar": "08.04.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184400",
+    "nama": "DA'IQATUL MURSALIM",
+    "wa": "87883717521",
+    "tanggalLahir": "2007-07-03",
+    "gender": "putra",
+    "kamar": "08.04.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184401",
+    "nama": "MUHAMMAD FATHIR AL-FATH",
+    "wa": "81251613265",
+    "tanggalLahir": "2007-11-07",
+    "gender": "putra",
+    "kamar": "08.04.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184404",
+    "nama": "MUSYARI RASYID",
+    "wa": "85166065284",
+    "tanggalLahir": "2008-07-05",
+    "gender": "putra",
+    "kamar": "08.04.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184408",
+    "nama": "MUQBIL MUBARAK",
+    "wa": "81349596652",
+    "tanggalLahir": "2005-10-03",
+    "gender": "putra",
+    "kamar": "08.04.04",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184413",
+    "nama": "ARIK DAIVULA",
+    "wa": "6.28E+09",
+    "tanggalLahir": "2007-04-10",
+    "gender": "putra",
+    "kamar": "08.04.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184414",
+    "nama": "MUHAMMAD FADHIL AUNUR RAHMAN",
+    "wa": "85333302008",
+    "tanggalLahir": "2008-03-19",
+    "gender": "putra",
+    "kamar": "08.04.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184415",
+    "nama": "RAIHAN RIANG",
+    "wa": "85710019541",
+    "tanggalLahir": "2005-09-25",
+    "gender": "putra",
+    "kamar": "08.04.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184417",
+    "nama": "AHMAD DZAKY AL-FAHRIDZY",
+    "wa": "85191456193",
+    "tanggalLahir": "2007-11-17",
+    "gender": "putra",
+    "kamar": "08.04.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184418",
+    "nama": "MUH. FATHIR AL RIDWAN",
+    "wa": "6.29E+12",
+    "tanggalLahir": "2007-12-12",
+    "gender": "putra",
+    "kamar": "08.04.05",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184419",
+    "nama": "ABDAN SYAKUR MARZUKI",
+    "wa": "81346225798",
+    "tanggalLahir": "2008-03-09",
+    "gender": "putra",
+    "kamar": "08.04.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184422",
+    "nama": "MUH LEFI ALWI",
+    "wa": "85329105035",
+    "tanggalLahir": "2007-06-13",
+    "gender": "putra",
+    "kamar": "08.04.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184423",
+    "nama": "NAUFAL SOFWAN S",
+    "wa": "82189444840",
+    "tanggalLahir": "2007-03-23",
+    "gender": "putra",
+    "kamar": "08.04.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184424",
+    "nama": "ABDUL HAFIZ NUR",
+    "wa": "82151540163",
+    "tanggalLahir": "2008-05-17",
+    "gender": "putra",
+    "kamar": "08.04.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184426",
+    "nama": "AHMAD BASAM",
+    "wa": "881024541185",
+    "tanggalLahir": "2008-01-20",
+    "gender": "putra",
+    "kamar": "08.04.06",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184428",
+    "nama": "REHAN ADITYA SAPUTRA",
+    "wa": "82343784944",
+    "tanggalLahir": "2008-05-22",
+    "gender": "putra",
+    "kamar": "08.04.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184429",
+    "nama": "AHMAD ABDURRAHMAN HARIS",
+    "wa": "82355159386",
+    "tanggalLahir": "2008-07-23",
+    "gender": "putra",
+    "kamar": "08.04.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184432",
+    "nama": "HARUN AR ROSYID",
+    "wa": "82324968237",
+    "tanggalLahir": "2006-07-29",
+    "gender": "putra",
+    "kamar": "08.04.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184433",
+    "nama": "MUHAMMAD FIKRI ANDITA PUTRA",
+    "wa": "85242555052",
+    "tanggalLahir": "2007-10-14",
+    "gender": "putra",
+    "kamar": "08.04.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184434",
+    "nama": "MARLALINGSI",
+    "wa": "85119788459",
+    "tanggalLahir": "2006-12-27",
+    "gender": "putra",
+    "kamar": "08.04.07",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184437",
+    "nama": "MUH. ARIF ARHAB",
+    "wa": "82290363361",
+    "tanggalLahir": "2007-12-13",
+    "gender": "putra",
+    "kamar": "08.04.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184440",
+    "nama": "NABIL",
+    "wa": "85754443823",
+    "tanggalLahir": "2007-05-06",
+    "gender": "putra",
+    "kamar": "08.04.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184441",
+    "nama": "MUHAMMAD SYAIFULLAH",
+    "wa": "81340558298",
+    "tanggalLahir": "2008-02-12",
+    "gender": "putra",
+    "kamar": "08.04.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184444",
+    "nama": "ALVIAN RIDHO ARUM",
+    "wa": "81240043351",
+    "tanggalLahir": "2005-10-15",
+    "gender": "putra",
+    "kamar": "08.04.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184445",
+    "nama": "MUH JEFRI AURI",
+    "wa": "85966437245",
+    "tanggalLahir": "2007-08-10",
+    "gender": "putra",
+    "kamar": "08.04.08",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184446",
+    "nama": "FAKHRIAN HIDAYAT",
+    "wa": "85212189910",
+    "tanggalLahir": "2008-04-10",
+    "gender": "putra",
+    "kamar": "08.04.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184449",
+    "nama": "AHMAD FAIZ RISQULLAH",
+    "wa": "85756487537",
+    "tanggalLahir": "2008-02-29",
+    "gender": "putra",
+    "kamar": "08.04.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184451",
+    "nama": "AHMAD ARKAN RABBANI",
+    "wa": "87892977863",
+    "tanggalLahir": "2007-08-15",
+    "gender": "putra",
+    "kamar": "08.04.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184452",
+    "nama": "YAHYA TAQIYUDIN",
+    "wa": "85111033924",
+    "tanggalLahir": "2006-07-06",
+    "gender": "putra",
+    "kamar": "08.04.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184454",
+    "nama": "SHIHAB FATIN ABDULLAH",
+    "wa": "8980559850",
+    "tanggalLahir": "2008-08-19",
+    "gender": "putra",
+    "kamar": "08.04.09",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184456",
+    "nama": "ANDIKA PRATAMA RAMADHAN",
+    "wa": "81340419282",
+    "tanggalLahir": "2007-09-19",
+    "gender": "putra",
+    "kamar": "08.04.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184457",
+    "nama": "MUH. RAFIQ AULIA PUTRA",
+    "wa": "85211111755",
+    "tanggalLahir": "2007-10-13",
+    "gender": "putra",
+    "kamar": "08.04.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184459",
+    "nama": "SALMAN ALFARIZI",
+    "wa": "82343256221",
+    "tanggalLahir": "2008-03-04",
+    "gender": "putra",
+    "kamar": "08.04.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184461",
+    "nama": "MUH. ARHAM AINUR RIDHO",
+    "wa": "81356813554",
+    "tanggalLahir": "2008-03-29",
+    "gender": "putra",
+    "kamar": "08.04.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184463",
+    "nama": "MUH. HAFIEZ ADHAN A",
+    "wa": "85180922757",
+    "tanggalLahir": "2007-08-26",
+    "gender": "putra",
+    "kamar": "08.04.10",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184468",
+    "nama": "ABDIANZAH",
+    "wa": "895405019218",
+    "tanggalLahir": "2008-05-22",
+    "gender": "putra",
+    "kamar": "08.04.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184469",
+    "nama": "MUHAMMAD KHALIL MUSTAFA",
+    "wa": "8979704797",
+    "tanggalLahir": "2007-03-14",
+    "gender": "putra",
+    "kamar": "08.04.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184471",
+    "nama": "PASYA DIVA PRASETYA",
+    "wa": "81252952031",
+    "tanggalLahir": "2007-06-14",
+    "gender": "putra",
+    "kamar": "08.04.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184473",
+    "nama": "SAYYID ASSIDDIQ GUSTI",
+    "wa": "85314994123",
+    "tanggalLahir": "2007-09-25",
+    "gender": "putra",
+    "kamar": "08.04.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184475",
+    "nama": "MUH.ERLANGGA PUTRA PRATAMA",
+    "wa": "85750687807",
+    "tanggalLahir": "2008-04-21",
+    "gender": "putra",
+    "kamar": "08.04.11",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184476",
+    "nama": "MUHAMMAD IKRAM RAHMATULLAH",
+    "wa": "81242920725",
+    "tanggalLahir": "2007-03-03",
+    "gender": "putra",
+    "kamar": "08.04.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184479",
+    "nama": "AZHAR MUFLIH",
+    "wa": "85882398159",
+    "tanggalLahir": "2006-12-24",
+    "gender": "putra",
+    "kamar": "08.04.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184480",
+    "nama": "MUH. IPA SABDAR",
+    "wa": "82347816785",
+    "tanggalLahir": "2007-08-19",
+    "gender": "putra",
+    "kamar": "08.04.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184481",
+    "nama": "M. ZAINUDIN ALI",
+    "wa": "85138939543",
+    "tanggalLahir": "2009-02-28",
+    "gender": "putra",
+    "kamar": "08.04.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184482",
+    "nama": "ROYYAN",
+    "wa": "89531199259",
+    "tanggalLahir": "2025-10-22",
+    "gender": "putra",
+    "kamar": "08.04.12",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184483",
+    "nama": "MUHAMMAD RIZKY RAMADHAN",
+    "wa": "8214990499",
+    "tanggalLahir": "2008-09-09",
+    "gender": "putra",
+    "kamar": "08.04.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184486",
+    "nama": "ABDULLAH BIN ABDUL MUIZ",
+    "wa": "85126693477",
+    "tanggalLahir": "2007-03-29",
+    "gender": "putra",
+    "kamar": "08.04.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184487",
+    "nama": "HENRI HUSNA DINATA",
+    "wa": "87774349366",
+    "tanggalLahir": "2006-10-17",
+    "gender": "putra",
+    "kamar": "08.04.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184488",
+    "nama": "MUHAMMAD DZAKIR",
+    "wa": "88804540205",
+    "tanggalLahir": "2008-07-18",
+    "gender": "putra",
+    "kamar": "08.04.13",
+    "isKetuaKamar": false
+  },
+  {
+    "nim": "2657184494",
+    "nama": "DILAN GAILAND IPTIZAM.H",
+    "wa": "6285188299271",
+    "tanggalLahir": null,
+    "gender": "putra",
+    "kamar": "08.00.00",
+    "isKetuaKamar": false
+  }
+]
